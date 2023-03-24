@@ -13,10 +13,6 @@ local Window = Library.CreateLib("Dan's BABFT Gui", "Ocean")
         loadstring(game:HttpGet("https://raw.githubusercontent.com/diksamed/antiafk/main/antiafk%20script",true))();
     end)
 
-        MainSection:NewButton("Anti AFK (анти афк)", "Doesnt auto click or there isnt a gui its just a background anti afk script that works perfectly fine and tested by me.", function()
-        loadstring(game:HttpGet("loadstring(game:HttpGet(("https://raw.githubusercontent.com/VertigoCool99/Script/main/BuildABoat/BuildABoatRestored.lua"),true))()",true))();
-    end)
-
     MainSection:NewButton("Get Bread (получить хлеб)", "Doesnt auto click or there isnt a gui its just a background anti afk script that works perfectly fine and tested by me.", function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/ExyXyz/ExyGantenk/main/ExyBABFT"))()
     end)
