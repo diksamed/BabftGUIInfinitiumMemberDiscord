@@ -71,3 +71,7 @@ local Window = Library.CreateLib("Dan's BABFT Gui", "Ocean")
 
         Fly(true)
     end)
+
+    OtherSection:NewButton("AutoBuild (автобилд)", "Doesnt auto click or there isnt a gui its just a background anti afk script that works perfectly fine and tested by me.", function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/VertigoCool99/Script/main/BuildABoat/BuildABoatRestored.lua",true))();
+    end)
